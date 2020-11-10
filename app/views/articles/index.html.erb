@@ -1,0 +1,12 @@
+<div class="container">
+  <div class="jumbotron jumbotron-fluid">
+    <div class="container">
+      <h1 class="display-4">Rails Wikinimous</h1>
+      <p class="lead">All articles</p>
+    </div>
+  </div>
+
+  <% @articles.each do |article| %>
+    <h3><%= article.title %></h3>
+  <% end %>
+</div>
